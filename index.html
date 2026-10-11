@@ -267,9 +267,13 @@
                     <input type="text" id="name" name="name" placeholder="Enter name" required>
                     <label for="phone_number">Phone number</label>
                     <input type="tel" id="phone_number" name="phone_number" placeholder="e.g 0704993601" required>
-                    <label for="gender">Gender</label>
-                    <input type="radio" name="gender" id="gender" value="Female">Female
-                    <input type="radio" name="gender" id="gender" value="Male">Male
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </fieldset>
                     <label for="product_name">Product name</label>
                     <input type="text" id="product_name" name="product_name" placeholder="Enter Product name" required>
                     <label for="location">Location</label>
@@ -286,8 +290,11 @@
                         <option value="Embu">Embu</option>
                         <option value="Eldorect">Eldorect</option>
                     </select>
-                    <label>Complete form</label>
-                    <input type="checkbox" value="Yes">Yes
+                    <fieldset>
+                        <legend>Complete form</legend>
+                        <label for="yes">Yes</label>
+                        <input type="checkbox" id="yes" value="yes">
+                    </fieldset>
                     <button type="submit">Send Form</button>
                 </form>
             </aside>
