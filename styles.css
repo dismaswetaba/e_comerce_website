@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5{color: darkgreen; display: block; font-weight: bold; font-fam
 a:hover, .btn:hover, .button:hover{background-color: darkgray; color: green;}
 li{font-size: 1.3rem; font-weight: bold; color: black; background-color: darkgray;}
 p{font-size: 1rem; color: black;}
-form{font-size: 1.2rem; font-weight: bold; background-color: lightblue; display: flex; flex-direction: column; color: darkgreen; padding: 1rem; margin: 1rem; border-radius: 0.5rem; width: 50%; height: 50%;}
+form{font-size: 1.2rem; font-weight: bold; background-color: lightblue; display: flex; flex-direction: column; color: darkgreen; padding: 1rem; margin: 1rem; border-radius: 0.5rem; width: 90%; height: 80%;}
 label{font-size: 1.8rem; font-weight: bold; color: black;} input{font-size: 1.3rem; font-weight: bold; color: darkgreen;}
 button{background-color: green; color: black; font-size: 1.3rem; font-weight: bold; height: 40%; width: 50%; align-items: center;}
 radio{font-size: 1rem; font-weight: bold; justify-content: space-evenly;}
