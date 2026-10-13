@@ -35,7 +35,7 @@ footer{width: 100%; background-color: lightblue; color: darkgreen; font-weight: 
 
 }
 @media (max-width: 480px) {
-    .products{grid-template-columns: repeat(2, minmax(0, 1fr));}
+    .products{grid-template-columns: repeat(1, minmax(0, 1fr));}
     h1{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3, h4, h5{font-size: 1.2rem;}
     li, a{font-size: 1.1rem;} p{font-size: 1rem;}
     body{margin: 0.1rem;}
